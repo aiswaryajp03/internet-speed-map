@@ -121,3 +121,8 @@ m
 
 m.save("internet_quality_map.html")
 
+df[['lat', 'lon', 'predicted_quality',
+    'avg_d_mbps', 'avg_u_mbps', 'avg_lat_ms']].to_csv(
+    'internet_quality_map_data.csv',
+    index=False
+)
