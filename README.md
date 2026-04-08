@@ -1,9 +1,9 @@
 # 🌐 Internet Quality Prediction & Visualization
 
-A geospatial machine learning project that analyzes large-scale internet speed data (15GB dataset from Kaggle) to predict and visualize internet quality across regions using an interactive map.
+A geospatial machine learning project that analyzes large-scale internet speed data (15GB dataset from Kaggle) to predict and visualize internet quality across regions using an interactive map. I've used only a sample of original dataset
 
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds an **Internet Quality Map** by:
 
@@ -15,7 +15,7 @@ This project builds an **Internet Quality Map** by:
 The final output is a browser-based map showing internet performance across geographic tiles.
 
 
-## 📊 Dataset
+## Dataset
 
 - Source: Kaggle (large-scale internet speed dataset ~15GB)
 - Sample used for development: reduced CSV (`sample.csv`)
@@ -29,7 +29,7 @@ The final output is a browser-based map showing internet performance across geog
   - `quadkey` – Tile identifier
 
 
-## ⚙️ Data Processing Pipeline
+## Data Processing Pipeline
 
 ### 1. Unit Conversion
 - Convert speeds:
@@ -57,7 +57,7 @@ quality_score =
 
 
 
-## 🤖 Machine Learning Model
+## Machine Learning Model
 
 - Model: **Random Forest Regressor**
 - Library: `scikit-learn`
@@ -98,7 +98,7 @@ Built using **Folium** with marker clustering.
 - Latency
 - Number of tests
 
-## 📁 Output Files
+## Output Files
 
 - `internet_quality_map.html`  
   → Interactive map (open in browser)
