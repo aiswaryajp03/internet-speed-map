@@ -1,6 +1,6 @@
 # 🌐 Internet Quality Prediction & Visualization
 
-A geospatial machine learning project that analyzes large-scale internet speed data (15GB dataset from Kaggle) to predict and visualize internet quality across regions using an interactive map. I've used only a sample of original dataset
+A geospatial machine learning project that analyzes large-scale internet speed data (15GB dataset from Kaggle) to predict and visualize internet quality across regions using an interactive map. **I've used only a sample of original dataset**
 
 
 ## Project Overview
